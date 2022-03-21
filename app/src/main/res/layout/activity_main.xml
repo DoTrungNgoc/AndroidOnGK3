@@ -14,7 +14,7 @@
         android:layout_marginStart="244dp"
         android:layout_marginTop="120dp"
         android:background="@drawable/border_button_go"
-        android:backgroundTint="#FFC107"
+        app:backgroundTint="#FFC107"
         android:text="Go"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -40,5 +40,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/buttonGo"
         app:layout_constraintEnd_toEndOf="@+id/buttonGo"
         app:layout_constraintStart_toStartOf="@+id/buttonGo"
-        app:layout_constraintTop_toTopOf="@+id/buttonGo" />
+        app:layout_constraintTop_toTopOf="@+id/buttonGo"
+        app:layout_constraintVertical_bias="0.511" />
 </androidx.constraintlayout.widget.ConstraintLayout>
